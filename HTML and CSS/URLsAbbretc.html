@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>URLs Abbr etc</title>
+        
+        <meta name="author" content="Jeanine Rioux">
+        <meta name="description" content="This page has some more advanced things. It is good for reference.">
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <nav>
+        <a href="index.html" type="button">home</a>
+    </nav>
+
+    <body>
+        <h1>Advanced Formatting</h1>
+
+        <h2>Hyperlinks Notes</h2>
+        
+        <p>I don't really feel like getting into this right now, but it might be good to have it here as a reference.
+            For further reference, go back to the 
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks" target="_blank">Mozilla tutorial</a>
+            and learn more.
+        </p>
+
+        <p>The <strong>root</strong> is the folder that all the files are kept in for the webpage. A <strong>directory</strong>
+            is a folder within the root.  This is good for keeping things together like pdfs or data files.
+        </p>
+
+        <p>If you are linking to something in the same directory, just give the <em>filename</em>.  To go down a directory, 
+            use directory_name / file_name. To go up a directory, use "../" and file_name.  These can be chained as needed.  These 
+            are considered <strong>relative URL</strong>s.  
+        </p>
+
+        <p>To link to something outside your page you must use the full URL. This is an <strong>absolute URL</strong>.
+        </p>
+
+        <p>Common practices include alerting the user when a link will involve special circumstances including downloading, streaming
+            requiring a Flash player or leaving a secured site.
+        </p>
+
+        <p>It is also possible to link to an email server with special cases such as including cc, bc and attachments or using 
+            a specific server.
+        </p>
+        <hr>
+
+        <h2>Abbreviations</h2>
+
+        <p>Since we love abbreviating things, we have to be aware that not everyone will know what the abbreviation or achronym stands for.
+            HTML has an element to address this.  Originally they created one for each case, but they are so similar that the achronym one
+            is no longer supported and rarely used. Use &lt;abbr&gt; in either case.  This will add a tooltip that will show the full word
+            title.  
+        </p>
+
+        <p> <abbr title="National Aeronautics and Space Administration">NASA</abbr> is an amazing organization.  It has an official title recognized by the world, but there is also Kaulin's version of
+            <abbr title="Nerds Are So Awesome">NASA</abbr>.
+        </p>
+    </body>
+
+    <footer>
+        <p>Here is where I'd put all that legal mumbo-jumbo about how it's all mine, don't take it, or how to contact me.</p>
+    </footer>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Math and CS Formatting</title>
+        
+        <meta name="author" content="Jeanine Rioux">
+        <meta name="description" content="Here are Formatting elements for math and CS">
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <nav>
+            <a href="index.html" type="button">home</a>
+    </nav>
+
+    <body>
+    
+        <h1>Sub and Super Scripts</h1>
+
+        <p>These are easy enough. &lt;sup&gt; marks the enclosed text as a superscript and &lt;sub&gt; marks it as a subscript.
+            Thus we can calculate x<sub>n</sub> to the 5<sup>th</sup> power.
+        </p>
+
+        <hr>
+
+        <h1>Coding Markups</h1>
+
+        <p>Of course I'm going to write code, and it needs to look like code! When I teach "Hello World" it should be obvious what is
+            coded and how it should look. I'll use the variable <var>theString</var> to store the string and then output it. </p>
+
+            <pre><code>
+            String theString = new String ("Hello world");
+
+            System.out.println(theString);
+            </code></pre>
+
+        Notice that in the presentation element, indicated by &lt;pre&gt; the whitespace is absolute.  It won't adjust to the screen.
+        The output should be <samp>Hello world</samp>.
+
+         <h1>Time</h1>
+
+         <hr>
+
+        <p>Every one has an opinion for how to write the date and time, and some situations require specific forms.  Also, all the 
+            variety can make things more complex for poor, simple-minded computer.
+        </p>
+        <ul>
+            <li><time datetime="2016-01-20">20 January 2016</time></li>
+            <!-- Just year and month -->
+            <li><time datetime="2016-01">January 2016</time></li>
+            <!-- Just month and day -->
+            <li><time datetime="01-20">20 January</time></li>
+            <!-- Just time, hours and minutes -->
+            <li><time datetime="19:30">19:30</time></li>
+            <!-- You can do seconds and milliseconds too! -->
+            <li><time datetime="19:30:01.856">19:30:01.856</time></li>
+            <!-- Date and time -->
+            <li><time datetime="2016-01-20T19:30">7.30pm, 20 January 2016</time></li>
+            <!-- Date and time with timezone offset-->
+            <li><time datetime="2016-01-20T19:30+01:00">7.30pm, 20 January 2016 is 8.30pm in France</time></li>
+            <!-- Calling out a specific week number-->
+            <li><time datetime="2016-W04">The fourth week of 2016</time></li>
+        </ul>
+    </body>
+    <footer>
+        <p>Here is where I'd put all that legal mumbo-jumbo about how it's all mine, don't take it, or how to contact me.</p>
+    </footer>
+</html>

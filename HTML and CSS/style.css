@@ -1,0 +1,31 @@
+html {
+    background-color: lightsteelblue;
+    font-size: 20px;
+    font: cursive;
+  }
+  
+  ul {
+    background: pink;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  li {
+    margin-left: 20px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  dl{
+      margin-left: 10px;
+      font-size: 15px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+  dt{
+      font-variant-caps: all-petite-caps
+  }
+  footer{
+        background-color: bisque;  
+        padding: 20px;
+        font-size: 10px;
+
+  }
