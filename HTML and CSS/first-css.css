@@ -1,0 +1,59 @@
+/* okay, just to show it exists, here is what the universal selector looks like
+but seriously? don't use it. */
+
+/* *{
+    border: 1px solid black;
+    background: rgba(255, 9,9,0.25);
+} */
+h1{
+    color:blue;
+/* /*    background-color: yellow;  */
+    background: linear-gradient(to top, rgba(2, 115, 13, 0.25), rgba(0, 128, 0, 0.911));
+    border: 1px solid black;
+    padding-left: 10px;
+    text-shadow: 3px 3px 3px black;
+}
+
+p{
+    color: brown;
+}
+
+ul{
+    color: purple;
+    background-color:palegreen;
+    border: 2px solid green;
+    box-shadow: inset 2px 2px 5px rgba(27, 15, 131, 0.25);
+    text-decoration: underline;
+}
+
+p, ul{
+    font: outline;
+}/* See, you can have multiple selectors for a block, 
+and use a selector more than once.  This one currently does nothing */
+
+/* class selector practice */
+.this {
+    font-style: oblique;
+}
+
+.word {
+    font-weight: 600;
+}
+
+.another {
+    text-decoration: line-through;
+}
+
+.one{
+    background: radial-gradient(palegreen, green);
+    padding: 3px 3px 3px 7px;
+}
+
+.para{
+    border: 2px solid green;
+    box-shadow: inset 2px 2px 5px rgba(27, 15, 131, 0.25);    
+}
+
+#fancy{
+    font-family:cursive;
+}
